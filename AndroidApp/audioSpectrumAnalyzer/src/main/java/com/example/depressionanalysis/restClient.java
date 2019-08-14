@@ -7,8 +7,7 @@ import com.loopj.android.http.AsyncHttpResponseHandler;
 import com.loopj.android.http.RequestParams;
 
 public class restClient extends Application {
-    private static final String BASE_URL = "http://172.17.46.52:5000"; //EC2 Instance
-
+    private static final String BASE_URL = "http://172.17.46.52:5000"; // change this to your own IPv4 address
 
     private static AsyncHttpClient client = new AsyncHttpClient();
 
